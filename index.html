@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navbar.css"/>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/modal-contacts.css" />
+    <title>FC Medical</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+          <h1 class="logo"><a href="/index.html">FC Medical</a></h1>
+          <ul>
+            <li><a href="#" class="current">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+    <div id="modal-container">
+        <div class="modal-header">
+            <h3 class="modal-heading"> Контактные телефоны </h3>
+            <button class="bottun" type="button">0544-34-56-78</button>
+        </div>
+        <div class="modal-content">
+            <contact-info>
+                <div class="modal-contacts__row">
+                    <p class="modal-contacts__label"> Consalting and Working Graphic</p>
+                    <a class="modal-contacts__phone-link" href="tel:+38 (044) 537-02-22"> +38 044 537-02-22 </a>
+                    <a class="modal-contacts__phone-link" href="tel:+38 (044) 503-80-80"> +38 044 503-80-80 </a>
+                </div>
+                <div class="modal-contacts__row">
+                    <p class="modal-contacts__label">Working Graphic :</p>
+                    <dl class="modal-contacts__schedule">
+                        <dt class="modal-contacts__schedule-day">All days :</dt>
+                        <dd class="modal-contacts__schedule-time">8:00 -- 20:00</dd>
+                        <dt class="modal-contacts__schedule-day">Friday :</dt>
+                        <dd class="modal-contacts__schedule-time">Close</dd>
+                        <dt class="modal-contacts__schedule-day">Saturday :</dt>
+                        <dd class="modal-contacts__schedule-time">10:00 -- 17:00</dd>
+                    </dl>
+                </div>
+            </contact-info>
+        </div>
+    </div>
+    
+
+    <script src="js/navbar.js"></script>
+    <script src="js/modal-contacts.js"></script>
+</body>
+</html>
