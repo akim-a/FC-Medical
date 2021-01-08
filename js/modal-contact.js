@@ -1,4 +1,7 @@
-const modal = document.getElementById('modal-container');
+const modal = document.getElementById('modal');
+const toggle = document.getElementById('toggle');
+const close = document.getElementById('close');
+const open = document.getElementById('open');
 
 // Show modal
 open.addEventListener('click', () => modal.classList.add('show-modal'));

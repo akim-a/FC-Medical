@@ -12,41 +12,64 @@
     <nav class="nav">
         <div class="container">
           <h1 class="logo"><a href="/index.html">FC Medical</a></h1>
+           <button class="open-btn" id="open">0544-34-56-78</button>
           <ul>
             <li><a href="#" class="current">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#">Product</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
     </nav>
-    <div id="modal-container">
-        <div class="modal-header">
-            <h3 class="modal-heading"> Контактные телефоны </h3>
-            <button class="bottun" type="button">0544-34-56-78</button>
+
+    <header>
+        <div class="banner">
+            <h1>Sarl FC Medical</h1>
+            <p>
         </div>
-        <div class="modal-content">
-            <contact-info>
-                <div class="modal-contacts__row">
-                    <p class="modal-contacts__label"> Consalting and Working Graphic</p>
-                    <a class="modal-contacts__phone-link" href="tel:+38 (044) 537-02-22"> +38 044 537-02-22 </a>
-                    <a class="modal-contacts__phone-link" href="tel:+38 (044) 503-80-80"> +38 044 503-80-80 </a>
-                </div>
-                <div class="modal-contacts__row">
-                    <p class="modal-contacts__label">Working Graphic :</p>
-                    <dl class="modal-contacts__schedule">
-                        <dt class="modal-contacts__schedule-day">All days :</dt>
-                        <dd class="modal-contacts__schedule-time">8:00 -- 20:00</dd>
-                        <dt class="modal-contacts__schedule-day">Friday :</dt>
-                        <dd class="modal-contacts__schedule-time">Close</dd>
-                        <dt class="modal-contacts__schedule-day">Saturday :</dt>
-                        <dd class="modal-contacts__schedule-time">10:00 -- 17:00</dd>
-                    </dl>
-                </div>
-            </contact-info>
+
+
+    </header>
+    <main>
+
+
+    </main>
+    <footer>
+
+
+    </footer>  
+    
+    <!-- Modal -->
+    <div class="modal.container" id="modal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-heading"> Контактные телефоны </h3>
+            </div>
+            <div class="modal-content">
+                <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+                </button>
+                <contact-info>
+                    <div class="modal-contacts-row">
+                        <p class="modal-contacts-label"> Consalting and Working Graphic</p>
+                        <a class="modal-contacts__phone-link" href="tel:+38 (044) 537-02-22"> +38 044 537-02-22 </a>
+                        <a class="modal-contacts__phone-link" href="tel:+38 (044) 503-80-80"> +38 044 503-80-80 </a>
+                    </div>
+                    <div class="modal-contacts-row">
+                        <p class="modal-contacts-abel">Working Graphic :</p>
+                        <dl class="modal-contacts-schedule">
+                            <dt class="modal-contacts__schedule-day">All days :</dt>
+                            <dd class="modal-contacts__schedule-time">8:00 -- 20:00</dd>
+                            <dt class="modal-contacts__schedule-day">Friday :</dt>
+                            <dd class="modal-contacts__schedule-time">Close</dd>
+                            <dt class="modal-contacts__schedule-day">Saturday :</dt>
+                            <dd class="modal-contacts__schedule-time">10:00 -- 17:00</dd>
+                        </dl>
+                    </div>
+                </contact-info>
+            </div>
         </div>
     </div>
-    
 
     <script src="js/navbar.js"></script>
     <script src="js/modal-contacts.js"></script>
